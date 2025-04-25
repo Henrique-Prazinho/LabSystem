@@ -1,20 +1,26 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using SistemaLab.Data;
-var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<SistemaLabContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("SistemaLabContext") ?? throw new InvalidOperationException("Connection string 'SistemaLabContext' not found.")));
+using Pomelo.EntityFrameworkCore.MySql;
 
-// Add services to the container.
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<SistemaLabContext>(options =>
+    options.UseMySql(builder.Configuration.GetConnectionString("SistemaLabContext"),
+    new MySqlServerVersion(new Version(8, 0, 42)), //Informa versão do MySql
+    builder => builder.MigrationsAssembly("SistemaLab"))); //Informa onde procurar as Migrations do DB
+
+
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    
     app.UseHsts();
 }
 

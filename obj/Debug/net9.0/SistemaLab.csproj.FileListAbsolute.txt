@@ -327,3 +327,6 @@ C:\C#Projects\SistemaLab\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime
 C:\C#Projects\SistemaLab\obj\Debug\net9.0\SistemaLab.csproj.AssemblyReference.cache
 C:\C#Projects\SistemaLab\obj\Debug\net9.0\SistemaLab.sourcelink.json
 C:\C#Projects\SistemaLab\obj\Debug\net9.0\SistemaLab.csproj.Up2Date
+C:\C#Projects\SistemaLab\bin\Debug\net9.0\MySqlConnector.dll
+C:\C#Projects\SistemaLab\bin\Debug\net9.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\C#Projects\SistemaLab\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

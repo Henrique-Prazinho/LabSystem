@@ -6,11 +6,9 @@ namespace SistemaLab.Models
         public string Email {get; set;}
         public int Id {get; set;}
 
-        public Customer(string Name, string Email, int Id)
+        public Customer()
         {
-            this.Name = Name;
-            this.Email = Email;
-            this.Id = Id;
+   
         }
     }
 }
