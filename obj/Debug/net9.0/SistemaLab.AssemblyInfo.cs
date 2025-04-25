@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("c557fd76-4316-4025-9303-1cc79308e963")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaLab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0eaec4d033f5b5ceef9c19a1835a7d6ec84a3c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f44c1c4a8acfa0a1d5da210299d8e45c763c4501")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaLab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaLab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
