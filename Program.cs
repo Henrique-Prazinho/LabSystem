@@ -1,4 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using SistemaLab.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<SistemaLabContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SistemaLabContext") ?? throw new InvalidOperationException("Connection string 'SistemaLabContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
