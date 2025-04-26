@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
+      "Id": "C:\\C#Projects\\SistemaLab\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flaty.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-flaty.min.css"
+    },
+    {
       "Id": "C:\\C#Projects\\SistemaLab\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },

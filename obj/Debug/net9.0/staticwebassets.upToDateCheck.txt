@@ -5,6 +5,7 @@ C:\C#Projects\SistemaLab\wwwroot\css\site.css
 C:\C#Projects\SistemaLab\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
 C:\C#Projects\SistemaLab\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
 C:\C#Projects\SistemaLab\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+C:\C#Projects\SistemaLab\wwwroot\lib\bootstrap\dist\css\bootstrap-flaty.min.css
 C:\C#Projects\SistemaLab\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 C:\C#Projects\SistemaLab\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
 C:\C#Projects\SistemaLab\wwwroot\js\site.js
@@ -71,6 +72,7 @@ wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-flaty.min.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qo+gxw3cUQn0CSPkunVlDdg2HYN1IGSw4cjHwinbwis=",
+  "Hash": "l1jD9lGn0bi2GQ80Zc82qCf15KV7dUVbi62Ip5rnbbA=",
   "Source": "SistemaLab",
   "BasePath": "_content/SistemaLab",
   "Mode": "Default",
@@ -162,6 +162,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\C#Projects\\SistemaLab\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\C#Projects\\SistemaLab\\obj\\Debug\\net9.0\\compressed\\3uuiqtbao1-yez77zr8ir.gz",
+      "SourceId": "SistemaLab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\C#Projects\\SistemaLab\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SistemaLab",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-flaty.min#[.{fingerprint=yez77zr8ir}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\C#Projects\\SistemaLab\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flaty.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "akqde8ufo3",
+      "Integrity": "ulUDwhx3h/J0Jy/OzXuDZvseGmqQOl3buui4dxfiup4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\C#Projects\\SistemaLab\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flaty.min.css"
     },
     {
       "Identity": "C:\\C#Projects\\SistemaLab\\obj\\Debug\\net9.0\\compressed\\3z3t9v35qj-h1s4sie4z3.gz",
@@ -1632,6 +1653,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\C#Projects\\SistemaLab\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flaty.min.css",
+      "SourceId": "SistemaLab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\C#Projects\\SistemaLab\\wwwroot\\",
+      "BasePath": "_content/SistemaLab",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-flaty.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yez77zr8ir",
+      "Integrity": "CjKEwLdSvt0bg/35KdHH/nNkIYSUf2IYt/WPJiA9+u0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flaty.min.css"
     },
     {
       "Identity": "C:\\C#Projects\\SistemaLab\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -6002,6 +6044,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-I0QuKxdK89NxyamT6EeIfl/MyifdDw+D8cUjkiXwoOU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-flaty.min.css",
+      "AssetFile": "C:\\C#Projects\\SistemaLab\\obj\\Debug\\net9.0\\compressed\\3uuiqtbao1-yez77zr8ir.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000031553704"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31691"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ulUDwhx3h/J0Jy/OzXuDZvseGmqQOl3buui4dxfiup4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 15:58:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"CjKEwLdSvt0bg/35KdHH/nNkIYSUf2IYt/WPJiA9+u0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CjKEwLdSvt0bg/35KdHH/nNkIYSUf2IYt/WPJiA9+u0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-flaty.min.css",
+      "AssetFile": "C:\\C#Projects\\SistemaLab\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flaty.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CjKEwLdSvt0bg/35KdHH/nNkIYSUf2IYt/WPJiA9+u0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 15:58:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CjKEwLdSvt0bg/35KdHH/nNkIYSUf2IYt/WPJiA9+u0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-flaty.min.css.gz",
+      "AssetFile": "C:\\C#Projects\\SistemaLab\\obj\\Debug\\net9.0\\compressed\\3uuiqtbao1-yez77zr8ir.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31691"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ulUDwhx3h/J0Jy/OzXuDZvseGmqQOl3buui4dxfiup4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 15:58:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ulUDwhx3h/J0Jy/OzXuDZvseGmqQOl3buui4dxfiup4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-flaty.min.yez77zr8ir.css",
+      "AssetFile": "C:\\C#Projects\\SistemaLab\\obj\\Debug\\net9.0\\compressed\\3uuiqtbao1-yez77zr8ir.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000031553704"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31691"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ulUDwhx3h/J0Jy/OzXuDZvseGmqQOl3buui4dxfiup4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 15:58:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"CjKEwLdSvt0bg/35KdHH/nNkIYSUf2IYt/WPJiA9+u0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yez77zr8ir"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-flaty.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CjKEwLdSvt0bg/35KdHH/nNkIYSUf2IYt/WPJiA9+u0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-flaty.min.yez77zr8ir.css",
+      "AssetFile": "C:\\C#Projects\\SistemaLab\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flaty.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CjKEwLdSvt0bg/35KdHH/nNkIYSUf2IYt/WPJiA9+u0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 15:58:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yez77zr8ir"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-flaty.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CjKEwLdSvt0bg/35KdHH/nNkIYSUf2IYt/WPJiA9+u0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-flaty.min.yez77zr8ir.css.gz",
+      "AssetFile": "C:\\C#Projects\\SistemaLab\\obj\\Debug\\net9.0\\compressed\\3uuiqtbao1-yez77zr8ir.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31691"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ulUDwhx3h/J0Jy/OzXuDZvseGmqQOl3buui4dxfiup4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 15:58:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yez77zr8ir"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-flaty.min.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ulUDwhx3h/J0Jy/OzXuDZvseGmqQOl3buui4dxfiup4="
         }
       ]
     },

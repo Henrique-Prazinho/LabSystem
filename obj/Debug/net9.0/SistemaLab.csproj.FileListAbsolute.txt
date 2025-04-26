@@ -330,3 +330,4 @@ C:\C#Projects\SistemaLab\obj\Debug\net9.0\SistemaLab.csproj.Up2Date
 C:\C#Projects\SistemaLab\bin\Debug\net9.0\MySqlConnector.dll
 C:\C#Projects\SistemaLab\bin\Debug\net9.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\C#Projects\SistemaLab\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\C#Projects\SistemaLab\obj\Debug\net9.0\compressed\3uuiqtbao1-yez77zr8ir.gz
