@@ -1,7 +1,7 @@
 ﻿@model SistemaLab.Models.HomePage
 
 @{
-    Layout = "_LayoutWithoutNav"; //Define o Layou sem o Home
+    Layout = "_LayoutWithoutNav"; //Define o Layout sem o Home
     ViewData["Title"] = "Bem-Vindo!";
 }
 
@@ -29,7 +29,7 @@
                 @if (Model.UserType == "Customer")
                 {
                     <li class="nav-item">
-                        <a asp-action="Index" asp-controller="Produtos" class="nav-link">Produtos</a>
+                        <a asp-action="DisplayProducts" asp-controller="Products" class="nav-link">Produtos</a>
                     </li>
                 }
 
@@ -37,10 +37,10 @@
                 @if (Model.UserType == "Admin")
                 {
                     <li class="nav-item">
-                        <a asp-action="CreateSupplier" asp-controller="Cadastrar Fornecedor" class="nav-link">Fornecedores</a>
+                        <a asp-action="Index" asp-controller="Suppliers" class="nav-link">Fornecedores</a>
                     </li>
                     <li class="nav-item">
-                        <a asp-action="CreateProduct" asp-controller="Admin" class="nav-link">Cadastrar Produtos</a>
+                        <a asp-action="Index" asp-controller="Products" class="nav-link">Cadastrar Produtos</a>
                     </li>
                 }
             </ul>

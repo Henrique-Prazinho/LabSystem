@@ -44,7 +44,7 @@ public class LoginController : Controller
         }
        
         //Se não for encontrado redireciona para a página de cadastro
-        return RedirectToAction("Index", "Register");
+        return RedirectToAction("Index");
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
