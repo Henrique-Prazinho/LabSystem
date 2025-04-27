@@ -1,0 +1,31 @@
+﻿@model SistemaLab.Models.HomePage
+
+@{
+    ViewData["Title"] = "Realize Login";
+}
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    @if (Model.UserType == "Customer")
+                    {
+                        <a class="nav-link" href="#">Produtos</a>
+                        <a class="nav-link" href="#">AAAAAAAAAAAAAAA</a>
+                    }
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container text-center mt-4">
+    <h1 class="display-4">Bem-Vindo!</h1>
+</div>

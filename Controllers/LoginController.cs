@@ -26,21 +26,23 @@ public class LoginController : Controller
 
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Login([Bind("Email,Password")] Login userData)
+    public async Task<IActionResult> Login(User userData)
     {
-        Console.WriteLine(userData.Password);
-        if (ModelState.IsValid)
-        {
-            //Procura na tabela "User" do DB onde o email e senha fornecido coincidam utilizando-se da expressão lambda
-            var user = await _context.User
-                .FirstOrDefaultAsync(u => u.Email == userData.Email && u.Password == userData.Password);
+        //Procura na tabela "User" do DB onde o email e senha fornecido coincidam utilizando-se da expressão lambda
+        var user = _context.User.FirstOrDefault(user => user.Email == userData.Email && user.Password == userData.Password);
 
-            //Se o usuário for encontrado
-            if (user != null)
-            {
-                return RedirectToAction("Index", "UserInfo");
-            }
+        //Se o usuário for encontrado
+        if (user != null)
+        {
+            //Define o ID da sessão do usuário logado
+            HttpContext.Session.SetString("UserType", user.UserType.ToString());
+
+            _logger.LogInformation(HttpContext.Session.GetString("UserType"));
+
+            //Retorna para a página Index do controlador especificado
+            return RedirectToAction("Index", "HomePage");
         }
+       
         //Se não for encontrado redireciona para a página de cadastro
         return RedirectToAction("Index", "Register");
     }

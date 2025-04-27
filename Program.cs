@@ -1,9 +1,17 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 using SistemaLab.Data;
-using Pomelo.EntityFrameworkCore.MySql;
+
 
 var builder = WebApplication.CreateBuilder(args);
+
+//Configuração middleware de sessão
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession(options =>
+                           {
+                               options.IdleTimeout = TimeSpan.FromMinutes(60); //Tempo de sessão
+                               options.Cookie.HttpOnly = true; //Garante que só será acessível ao servidor
+                               options.Cookie.IsEssential = true;
+                           });
 
 builder.Services.AddDbContext<SistemaLabContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("SistemaLabContext"),
@@ -26,6 +34,8 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseRouting();
+
+app.UseSession();
 
 app.UseAuthorization();
 
