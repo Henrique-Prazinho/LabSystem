@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaLab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62a7571910b0fdf6acc3af0919e15c7a5805621e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00bc46730928ab2d7d890c9d8f5ce1c824fdff0a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaLab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaLab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
