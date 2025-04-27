@@ -10,41 +10,63 @@ using SistemaLab.Models;
 
 namespace SistemaLab.Controllers
 {
-    public class ProductsController : Controller
+    public class SuppliersController : Controller
     {
         private readonly SistemaLabContext _context;
 
-        public ProductsController(SistemaLabContext context)
+        public SuppliersController(SistemaLabContext context)
         {
             _context = context;
         }
+
+        // GET: Suppliers
         public async Task<IActionResult> Index()
         {
-            var products = await _context.Products.ToListAsync();
-            return View(products);
+            var suppliers = await _context.User
+                                .Where(u => u.UserType == "Supplier")
+                                .ToListAsync();
+            return View(suppliers);
         }
-        public async Task<IActionResult> DisplayProducts()
+
+        // GET: Suppliers/Details/5
+        public async Task<IActionResult> Details(int? id)
         {
-            var products = await _context.Products.ToListAsync();
-            return View(products);
+            if (id == null)
+            {
+                return NotFound();
+            }
 
+            var user = await _context.User
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            return View(user);
         }
 
-        // POST: Products/Create
+        // GET: Suppliers/Create
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        // POST: Suppliers/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,ProductName,ProductPrice,ProductDescription")] Product product)
+        public async Task<IActionResult> Create([Bind("Id,Name,Email,Password")] Supplier user)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(product);
+                _context.Add(user);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(product);
+            return View(user);
         }
 
-        // GET: Products/Edit/5
+        // GET: Suppliers/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -52,20 +74,22 @@ namespace SistemaLab.Controllers
                 return NotFound();
             }
 
-            var product = await _context.Products.FindAsync(id);
-            if (product == null)
+            var user = await _context.User.FindAsync(id);
+            if (user == null)
             {
                 return NotFound();
             }
-            return View(product);
+            return View(user);
         }
 
-        // POST: Products/Edit/5
+        // POST: Suppliers/Edit/5
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,ProductName,ProductPrice,ProductDescription")] Product product)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Email,Password,UserType")] User user)
         {
-            if (id != product.Id)
+            if (id != user.Id)
             {
                 return NotFound();
             }
@@ -74,12 +98,12 @@ namespace SistemaLab.Controllers
             {
                 try
                 {
-                    _context.Update(product);
+                    _context.Update(user);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ProductExists(product.Id))
+                    if (!UserExists(user.Id))
                     {
                         return NotFound();
                     }
@@ -90,10 +114,10 @@ namespace SistemaLab.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(product);
+            return View(user);
         }
 
-        // GET: Products/Delete/5
+        // GET: Suppliers/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -101,34 +125,34 @@ namespace SistemaLab.Controllers
                 return NotFound();
             }
 
-            var product = await _context.Products
+            var user = await _context.User
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (product == null)
+            if (user == null)
             {
                 return NotFound();
             }
 
-            return View(product);
+            return View(user);
         }
 
-        // POST: Products/Delete/5
+        // POST: Suppliers/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var product = await _context.Products.FindAsync(id);
-            if (product != null)
+            var user = await _context.User.FindAsync(id);
+            if (user != null)
             {
-                _context.Products.Remove(product);
+                _context.User.Remove(user);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool ProductExists(int id)
+        private bool UserExists(int id)
         {
-            return _context.Products.Any(e => e.Id == id);
+            return _context.User.Any(e => e.Id == id);
         }
     }
 }
