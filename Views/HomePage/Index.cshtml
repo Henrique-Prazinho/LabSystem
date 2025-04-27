@@ -1,31 +1,49 @@
 ﻿@model SistemaLab.Models.HomePage
 
 @{
-    ViewData["Title"] = "Realize Login";
+    Layout = "_LayoutWithoutNav"; //Define o Layou sem o Home
+    ViewData["Title"] = "Bem-Vindo!";
 }
+
+<!-- Centralizando o título -->
+<div class="text-center my-4">
+    <h1>@ViewData["Title"]</h1>
+</div>
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- Nome do site à esquerda -->
+        <a class="navbar-brand" href="#">SistemaLab</a>
+
+        <!-- Botão de alternância do menu (para dispositivos móveis) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
+        <!-- Links de navegação -->
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    @if (Model.UserType == "Customer")
-                    {
-                        <a class="nav-link" href="#">Produtos</a>
-                        <a class="nav-link" href="#">AAAAAAAAAAAAAAA</a>
-                    }
-                </li>
+
+                <!-- Se o usuário for do tipo "Customer" -->
+                @if (Model.UserType == "Customer")
+                {
+                    <li class="nav-item">
+                        <a asp-action="Index" asp-controller="Produtos" class="nav-link">Produtos</a>
+                    </li>
+                }
+
+                <!-- Se o usuário for do tipo "Admin" -->
+                @if (Model.UserType == "Admin")
+                {
+                    <li class="nav-item">
+                        <a asp-action="CreateSupplier" asp-controller="Cadastrar Fornecedor" class="nav-link">Fornecedores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a asp-action="CreateProduct" asp-controller="Admin" class="nav-link">Cadastrar Produtos</a>
+                    </li>
+                }
             </ul>
         </div>
     </div>
 </nav>
-
-<div class="container text-center mt-4">
-    <h1 class="display-4">Bem-Vindo!</h1>
-</div>

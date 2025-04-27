@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hqYsGiTtnt7S8NTmX9CmJc5UJrvtc0VzcNaE15Q0TGE=",
+  "Hash": "1zA6XqweGlxk14Z07nOtK7VGdbu8O5WmEGAd9GwBCo8=",
   "Source": "SistemaLab",
   "BasePath": "_content/SistemaLab",
   "Mode": "Default",
@@ -374,12 +374,12 @@
       "OriginalItemSpec": "C:\\C#Projects\\SistemaLab\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\compressed\\70lvj5mxdy-qrbltyo9r4.gz",
+      "Identity": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\compressed\\70lvj5mxdy-hite9v058f.gz",
       "SourceId": "SistemaLab",
       "SourceType": "Computed",
       "ContentRoot": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "_content/SistemaLab",
-      "RelativePath": "SistemaLab#[.{fingerprint=qrbltyo9r4}]!.bundle.scp.css.gz",
+      "RelativePath": "SistemaLab#[.{fingerprint=hite9v058f}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -388,8 +388,8 @@
       "RelatedAsset": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\SistemaLab.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "g7yu9vms63",
-      "Integrity": "rO3Satm0/TkDZJzkNzXU2cgm9K/tgwiSLyMeTU7s+DA=",
+      "Fingerprint": "rx4tnskrll",
+      "Integrity": "wdq899zvnguih+1lE0i79fj2d8SHUZdFYYb2ahgVMJ8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\SistemaLab.bundle.scp.css"
@@ -584,12 +584,12 @@
       "OriginalItemSpec": "C:\\C#Projects\\SistemaLab\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\compressed\\bg1ihcvrox-qrbltyo9r4.gz",
+      "Identity": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\compressed\\bg1ihcvrox-hite9v058f.gz",
       "SourceId": "SistemaLab",
       "SourceType": "Computed",
       "ContentRoot": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "_content/SistemaLab",
-      "RelativePath": "SistemaLab#[.{fingerprint=qrbltyo9r4}]?.styles.css.gz",
+      "RelativePath": "SistemaLab#[.{fingerprint=hite9v058f}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -598,8 +598,8 @@
       "RelatedAsset": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\scopedcss\\bundle\\SistemaLab.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "g7yu9vms63",
-      "Integrity": "rO3Satm0/TkDZJzkNzXU2cgm9K/tgwiSLyMeTU7s+DA=",
+      "Fingerprint": "rx4tnskrll",
+      "Integrity": "wdq899zvnguih+1lE0i79fj2d8SHUZdFYYb2ahgVMJ8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\scopedcss\\bundle\\SistemaLab.styles.css"
@@ -1396,8 +1396,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "qrbltyo9r4",
-      "Integrity": "1vNEiA9CcUNAbP9qyk0t8q1WI54BugkhcX50RI2xCt8=",
+      "Fingerprint": "hite9v058f",
+      "Integrity": "6VF2UNh16PV7Jh1FGSpYTjFbmwZFkAmZFvkhlhRqBCE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\scopedcss\\bundle\\SistemaLab.styles.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "qrbltyo9r4",
-      "Integrity": "1vNEiA9CcUNAbP9qyk0t8q1WI54BugkhcX50RI2xCt8=",
+      "Fingerprint": "hite9v058f",
+      "Integrity": "6VF2UNh16PV7Jh1FGSpYTjFbmwZFkAmZFvkhlhRqBCE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\SistemaLab.bundle.scp.css"
@@ -21627,12 +21627,12 @@
     },
     {
       "Route": "SistemaLab.bundle.scp.css",
-      "AssetFile": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\compressed\\70lvj5mxdy-qrbltyo9r4.gz",
+      "AssetFile": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\compressed\\70lvj5mxdy-hite9v058f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001845018450"
+          "Quality": "0.001610305958"
         }
       ],
       "ResponseHeaders": [
@@ -21642,15 +21642,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "620"
         },
         {
           "Name": "ETag",
-          "Value": "\"rO3Satm0/TkDZJzkNzXU2cgm9K/tgwiSLyMeTU7s+DA=\""
+          "Value": "\"wdq899zvnguih+1lE0i79fj2d8SHUZdFYYb2ahgVMJ8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 15:20:07 GMT"
+          "Value": "Sun, 27 Apr 2025 17:03:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21670,13 +21670,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"1vNEiA9CcUNAbP9qyk0t8q1WI54BugkhcX50RI2xCt8=\""
+          "Value": "W/\"6VF2UNh16PV7Jh1FGSpYTjFbmwZFkAmZFvkhlhRqBCE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1vNEiA9CcUNAbP9qyk0t8q1WI54BugkhcX50RI2xCt8="
+          "Value": "sha256-6VF2UNh16PV7Jh1FGSpYTjFbmwZFkAmZFvkhlhRqBCE="
         }
       ]
     },
@@ -21691,7 +21691,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1128"
+          "Value": "2266"
         },
         {
           "Name": "Content-Type",
@@ -21699,11 +21699,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1vNEiA9CcUNAbP9qyk0t8q1WI54BugkhcX50RI2xCt8=\""
+          "Value": "\"6VF2UNh16PV7Jh1FGSpYTjFbmwZFkAmZFvkhlhRqBCE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 15:20:07 GMT"
+          "Value": "Sun, 27 Apr 2025 17:03:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21713,13 +21713,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1vNEiA9CcUNAbP9qyk0t8q1WI54BugkhcX50RI2xCt8="
+          "Value": "sha256-6VF2UNh16PV7Jh1FGSpYTjFbmwZFkAmZFvkhlhRqBCE="
         }
       ]
     },
     {
       "Route": "SistemaLab.bundle.scp.css.gz",
-      "AssetFile": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\compressed\\70lvj5mxdy-qrbltyo9r4.gz",
+      "AssetFile": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\compressed\\70lvj5mxdy-hite9v058f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21728,7 +21728,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "620"
         },
         {
           "Name": "Content-Type",
@@ -21736,11 +21736,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rO3Satm0/TkDZJzkNzXU2cgm9K/tgwiSLyMeTU7s+DA=\""
+          "Value": "\"wdq899zvnguih+1lE0i79fj2d8SHUZdFYYb2ahgVMJ8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 15:20:07 GMT"
+          "Value": "Sun, 27 Apr 2025 17:03:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21758,18 +21758,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rO3Satm0/TkDZJzkNzXU2cgm9K/tgwiSLyMeTU7s+DA="
+          "Value": "sha256-wdq899zvnguih+1lE0i79fj2d8SHUZdFYYb2ahgVMJ8="
         }
       ]
     },
     {
-      "Route": "SistemaLab.qrbltyo9r4.bundle.scp.css",
-      "AssetFile": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\compressed\\70lvj5mxdy-qrbltyo9r4.gz",
+      "Route": "SistemaLab.hite9v058f.bundle.scp.css",
+      "AssetFile": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\compressed\\70lvj5mxdy-hite9v058f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001845018450"
+          "Quality": "0.001610305958"
         }
       ],
       "ResponseHeaders": [
@@ -21779,15 +21779,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "620"
         },
         {
           "Name": "ETag",
-          "Value": "\"rO3Satm0/TkDZJzkNzXU2cgm9K/tgwiSLyMeTU7s+DA=\""
+          "Value": "\"wdq899zvnguih+1lE0i79fj2d8SHUZdFYYb2ahgVMJ8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 15:20:07 GMT"
+          "Value": "Sun, 27 Apr 2025 17:03:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21807,13 +21807,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"1vNEiA9CcUNAbP9qyk0t8q1WI54BugkhcX50RI2xCt8=\""
+          "Value": "W/\"6VF2UNh16PV7Jh1FGSpYTjFbmwZFkAmZFvkhlhRqBCE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qrbltyo9r4"
+          "Value": "hite9v058f"
         },
         {
           "Name": "label",
@@ -21821,12 +21821,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1vNEiA9CcUNAbP9qyk0t8q1WI54BugkhcX50RI2xCt8="
+          "Value": "sha256-6VF2UNh16PV7Jh1FGSpYTjFbmwZFkAmZFvkhlhRqBCE="
         }
       ]
     },
     {
-      "Route": "SistemaLab.qrbltyo9r4.bundle.scp.css",
+      "Route": "SistemaLab.hite9v058f.bundle.scp.css",
       "AssetFile": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\SistemaLab.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -21836,7 +21836,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1128"
+          "Value": "2266"
         },
         {
           "Name": "Content-Type",
@@ -21844,11 +21844,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1vNEiA9CcUNAbP9qyk0t8q1WI54BugkhcX50RI2xCt8=\""
+          "Value": "\"6VF2UNh16PV7Jh1FGSpYTjFbmwZFkAmZFvkhlhRqBCE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 15:20:07 GMT"
+          "Value": "Sun, 27 Apr 2025 17:03:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21858,7 +21858,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qrbltyo9r4"
+          "Value": "hite9v058f"
         },
         {
           "Name": "label",
@@ -21866,13 +21866,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1vNEiA9CcUNAbP9qyk0t8q1WI54BugkhcX50RI2xCt8="
+          "Value": "sha256-6VF2UNh16PV7Jh1FGSpYTjFbmwZFkAmZFvkhlhRqBCE="
         }
       ]
     },
     {
-      "Route": "SistemaLab.qrbltyo9r4.bundle.scp.css.gz",
-      "AssetFile": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\compressed\\70lvj5mxdy-qrbltyo9r4.gz",
+      "Route": "SistemaLab.hite9v058f.bundle.scp.css.gz",
+      "AssetFile": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\compressed\\70lvj5mxdy-hite9v058f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21881,7 +21881,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "620"
         },
         {
           "Name": "Content-Type",
@@ -21889,11 +21889,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rO3Satm0/TkDZJzkNzXU2cgm9K/tgwiSLyMeTU7s+DA=\""
+          "Value": "\"wdq899zvnguih+1lE0i79fj2d8SHUZdFYYb2ahgVMJ8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 15:20:07 GMT"
+          "Value": "Sun, 27 Apr 2025 17:03:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21911,7 +21911,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qrbltyo9r4"
+          "Value": "hite9v058f"
         },
         {
           "Name": "label",
@@ -21919,18 +21919,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-rO3Satm0/TkDZJzkNzXU2cgm9K/tgwiSLyMeTU7s+DA="
+          "Value": "sha256-wdq899zvnguih+1lE0i79fj2d8SHUZdFYYb2ahgVMJ8="
         }
       ]
     },
     {
-      "Route": "SistemaLab.qrbltyo9r4.styles.css",
-      "AssetFile": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\compressed\\bg1ihcvrox-qrbltyo9r4.gz",
+      "Route": "SistemaLab.hite9v058f.styles.css",
+      "AssetFile": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\compressed\\bg1ihcvrox-hite9v058f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001845018450"
+          "Quality": "0.001610305958"
         }
       ],
       "ResponseHeaders": [
@@ -21940,15 +21940,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "620"
         },
         {
           "Name": "ETag",
-          "Value": "\"rO3Satm0/TkDZJzkNzXU2cgm9K/tgwiSLyMeTU7s+DA=\""
+          "Value": "\"wdq899zvnguih+1lE0i79fj2d8SHUZdFYYb2ahgVMJ8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 15:20:07 GMT"
+          "Value": "Sun, 27 Apr 2025 17:03:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21968,13 +21968,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"1vNEiA9CcUNAbP9qyk0t8q1WI54BugkhcX50RI2xCt8=\""
+          "Value": "W/\"6VF2UNh16PV7Jh1FGSpYTjFbmwZFkAmZFvkhlhRqBCE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qrbltyo9r4"
+          "Value": "hite9v058f"
         },
         {
           "Name": "label",
@@ -21982,12 +21982,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1vNEiA9CcUNAbP9qyk0t8q1WI54BugkhcX50RI2xCt8="
+          "Value": "sha256-6VF2UNh16PV7Jh1FGSpYTjFbmwZFkAmZFvkhlhRqBCE="
         }
       ]
     },
     {
-      "Route": "SistemaLab.qrbltyo9r4.styles.css",
+      "Route": "SistemaLab.hite9v058f.styles.css",
       "AssetFile": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\scopedcss\\bundle\\SistemaLab.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -21997,7 +21997,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1128"
+          "Value": "2266"
         },
         {
           "Name": "Content-Type",
@@ -22005,11 +22005,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1vNEiA9CcUNAbP9qyk0t8q1WI54BugkhcX50RI2xCt8=\""
+          "Value": "\"6VF2UNh16PV7Jh1FGSpYTjFbmwZFkAmZFvkhlhRqBCE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 15:20:07 GMT"
+          "Value": "Sun, 27 Apr 2025 17:03:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22019,7 +22019,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qrbltyo9r4"
+          "Value": "hite9v058f"
         },
         {
           "Name": "label",
@@ -22027,13 +22027,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1vNEiA9CcUNAbP9qyk0t8q1WI54BugkhcX50RI2xCt8="
+          "Value": "sha256-6VF2UNh16PV7Jh1FGSpYTjFbmwZFkAmZFvkhlhRqBCE="
         }
       ]
     },
     {
-      "Route": "SistemaLab.qrbltyo9r4.styles.css.gz",
-      "AssetFile": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\compressed\\bg1ihcvrox-qrbltyo9r4.gz",
+      "Route": "SistemaLab.hite9v058f.styles.css.gz",
+      "AssetFile": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\compressed\\bg1ihcvrox-hite9v058f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22042,7 +22042,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "620"
         },
         {
           "Name": "Content-Type",
@@ -22050,11 +22050,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rO3Satm0/TkDZJzkNzXU2cgm9K/tgwiSLyMeTU7s+DA=\""
+          "Value": "\"wdq899zvnguih+1lE0i79fj2d8SHUZdFYYb2ahgVMJ8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 15:20:07 GMT"
+          "Value": "Sun, 27 Apr 2025 17:03:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22072,7 +22072,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qrbltyo9r4"
+          "Value": "hite9v058f"
         },
         {
           "Name": "label",
@@ -22080,18 +22080,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-rO3Satm0/TkDZJzkNzXU2cgm9K/tgwiSLyMeTU7s+DA="
+          "Value": "sha256-wdq899zvnguih+1lE0i79fj2d8SHUZdFYYb2ahgVMJ8="
         }
       ]
     },
     {
       "Route": "SistemaLab.styles.css",
-      "AssetFile": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\compressed\\bg1ihcvrox-qrbltyo9r4.gz",
+      "AssetFile": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\compressed\\bg1ihcvrox-hite9v058f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001845018450"
+          "Quality": "0.001610305958"
         }
       ],
       "ResponseHeaders": [
@@ -22101,15 +22101,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "620"
         },
         {
           "Name": "ETag",
-          "Value": "\"rO3Satm0/TkDZJzkNzXU2cgm9K/tgwiSLyMeTU7s+DA=\""
+          "Value": "\"wdq899zvnguih+1lE0i79fj2d8SHUZdFYYb2ahgVMJ8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 15:20:07 GMT"
+          "Value": "Sun, 27 Apr 2025 17:03:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22129,13 +22129,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"1vNEiA9CcUNAbP9qyk0t8q1WI54BugkhcX50RI2xCt8=\""
+          "Value": "W/\"6VF2UNh16PV7Jh1FGSpYTjFbmwZFkAmZFvkhlhRqBCE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1vNEiA9CcUNAbP9qyk0t8q1WI54BugkhcX50RI2xCt8="
+          "Value": "sha256-6VF2UNh16PV7Jh1FGSpYTjFbmwZFkAmZFvkhlhRqBCE="
         }
       ]
     },
@@ -22150,7 +22150,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1128"
+          "Value": "2266"
         },
         {
           "Name": "Content-Type",
@@ -22158,11 +22158,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1vNEiA9CcUNAbP9qyk0t8q1WI54BugkhcX50RI2xCt8=\""
+          "Value": "\"6VF2UNh16PV7Jh1FGSpYTjFbmwZFkAmZFvkhlhRqBCE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 15:20:07 GMT"
+          "Value": "Sun, 27 Apr 2025 17:03:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22172,13 +22172,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1vNEiA9CcUNAbP9qyk0t8q1WI54BugkhcX50RI2xCt8="
+          "Value": "sha256-6VF2UNh16PV7Jh1FGSpYTjFbmwZFkAmZFvkhlhRqBCE="
         }
       ]
     },
     {
       "Route": "SistemaLab.styles.css.gz",
-      "AssetFile": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\compressed\\bg1ihcvrox-qrbltyo9r4.gz",
+      "AssetFile": "C:\\C#Projects\\SistemaLab\\obj\\Release\\net9.0\\compressed\\bg1ihcvrox-hite9v058f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22187,7 +22187,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "620"
         },
         {
           "Name": "Content-Type",
@@ -22195,11 +22195,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rO3Satm0/TkDZJzkNzXU2cgm9K/tgwiSLyMeTU7s+DA=\""
+          "Value": "\"wdq899zvnguih+1lE0i79fj2d8SHUZdFYYb2ahgVMJ8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 15:20:07 GMT"
+          "Value": "Sun, 27 Apr 2025 17:03:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22217,7 +22217,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rO3Satm0/TkDZJzkNzXU2cgm9K/tgwiSLyMeTU7s+DA="
+          "Value": "sha256-wdq899zvnguih+1lE0i79fj2d8SHUZdFYYb2ahgVMJ8="
         }
       ]
     }

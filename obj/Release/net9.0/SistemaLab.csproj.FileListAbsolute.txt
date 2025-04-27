@@ -313,8 +313,6 @@ C:\C#Projects\SistemaLab\obj\Release\net9.0\compressed\jeeqfgqps1-2z0ns9nrw6.gz
 C:\C#Projects\SistemaLab\obj\Release\net9.0\compressed\6ui3osp4j7-muycvpuwrr.gz
 C:\C#Projects\SistemaLab\obj\Release\net9.0\compressed\fmij0i8qo5-87fc7y1x7t.gz
 C:\C#Projects\SistemaLab\obj\Release\net9.0\compressed\ehh9kcu0f2-mlv21k5csn.gz
-C:\C#Projects\SistemaLab\obj\Release\net9.0\compressed\bg1ihcvrox-qrbltyo9r4.gz
-C:\C#Projects\SistemaLab\obj\Release\net9.0\compressed\70lvj5mxdy-qrbltyo9r4.gz
 C:\C#Projects\SistemaLab\obj\Release\net9.0\staticwebassets.build.json
 C:\C#Projects\SistemaLab\obj\Release\net9.0\staticwebassets.development.json
 C:\C#Projects\SistemaLab\obj\Release\net9.0\staticwebassets.build.endpoints.json
@@ -331,3 +329,6 @@ C:\C#Projects\SistemaLab\obj\Release\net9.0\refint\SistemaLab.dll
 C:\C#Projects\SistemaLab\obj\Release\net9.0\SistemaLab.pdb
 C:\C#Projects\SistemaLab\obj\Release\net9.0\SistemaLab.genruntimeconfig.cache
 C:\C#Projects\SistemaLab\obj\Release\net9.0\ref\SistemaLab.dll
+C:\C#Projects\SistemaLab\obj\Release\net9.0\scopedcss\Views\Shared\_LayoutWithoutNav.cshtml.rz.scp.css
+C:\C#Projects\SistemaLab\obj\Release\net9.0\compressed\bg1ihcvrox-hite9v058f.gz
+C:\C#Projects\SistemaLab\obj\Release\net9.0\compressed\70lvj5mxdy-hite9v058f.gz

@@ -15,5 +15,6 @@ namespace SistemaLab.Data
         }
 
         public DbSet<SistemaLab.Models.User> User{ get; set; } = default!;
+        public DbSet<SistemaLab.Models.Product> Products { get; set; } = default!;
     }
 }
