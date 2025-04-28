@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SistemaLab.Data;
@@ -28,6 +24,30 @@ namespace SistemaLab.Controllers
             var products = await _context.Products.ToListAsync();
             return View(products);
 
+        }
+
+        //GETTERS
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        // GET: Products/Details/
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var user = await _context.Products
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            return View(user);
         }
 
         // POST: Products/Create
